@@ -1,1 +1,3 @@
-<app-flash-screen></app-flash-screen>
+<app-flash-screen *ngIf="showFlash"></app-flash-screen>
+
+<h2 *ngIf="!showFlash">hello</h2>
