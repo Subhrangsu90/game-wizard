@@ -11,10 +11,7 @@
   );
 }
 
-.flash-screen__content{
-    gap: 1rem;
-    padding-bottom: 6rem;
-}
+
 
 .flash-screen__title {
   font-family: Mansalva;
@@ -30,4 +27,9 @@
   padding-left: 5rem;
   text-align: center;
   color: #FFFFFF99;
+}
+
+.flash-screen__content{
+    gap: 1rem;
+    padding-bottom: 6rem;
 }
