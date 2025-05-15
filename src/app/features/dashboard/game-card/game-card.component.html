@@ -1,0 +1,28 @@
+<!-- <div class="game-card">
+  <div class="thumbnail-container">
+    <img [src]="game.thumbnail" [alt]="game.title + ' thumbnail'" class="thumbnail">
+  </div>
+  <div class="game-info">
+    <h3 class="game-title">{{ game.title }}</h3>
+    <div class="game-meta" *ngIf="game.rating || game.players">
+      <span class="rating" *ngIf="game.rating">★ {{ game.rating }}</span>
+      <span class="players" *ngIf="game.players">{{ game.players }} player{{ game.players > 1 ? 's' : '' }}</span>
+    </div>
+  </div>
+</div> -->
+
+
+<div class="game-card" [class.featured]="game.featured" [class.square]="game.aspectRatio === 'square'"
+  [class.portrait]="game.aspectRatio === 'portrait'" [class.landscape]="game.aspectRatio === 'landscape'"
+  [class.wide]="game.aspectRatio === 'wide'">
+  <div class="thumbnail-container">
+    <img [src]="game.thumbnail" [alt]="game.title + ' thumbnail'" class="thumbnail">
+  </div>
+  <div class="game-info">
+    <h3 class="game-title">{{ game.title }}</h3>
+    <div class="game-meta">
+      <span class="rating" *ngIf="game.rating">★ {{ game.rating }}</span>
+      <span class="players" *ngIf="game.players">{{ game.players }} player{{ game.players > 1 ? 's' : '' }}</span>
+    </div>
+  </div>
+</div>
