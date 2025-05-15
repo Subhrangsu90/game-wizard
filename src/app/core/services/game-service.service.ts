@@ -9,10 +9,10 @@ export class GameServiceService {
   constructor() { }
 
   private games: Game[] = [
-     {
+   {
       id: '1',
       title: 'Subway Surfers',
-      thumbnail: 'https://m.media-amazon.com/images/I/71FvD8y-jL._AC_UF894,1000_QL80_.jpg',
+      thumbnail: 'assets/image/image.png',
       category: 'Adventure',
       players: 1,
       rating: 4.5,
@@ -22,7 +22,7 @@ export class GameServiceService {
     {
       id: '2',
       title: 'Temple Run 2',
-      thumbnail: 'https://image.api.playstation.com/vulcan/ap/rnd/202301/1917/b4914115148977124588789ad8716787d5558117c77e557b.png',
+      thumbnail: 'assets/image/image.png',
       category: 'Adventure',
       players: 1,
       rating: 4.3,
@@ -32,7 +32,7 @@ export class GameServiceService {
     {
       id: '3',
       title: 'Candy Crush Saga',
-      thumbnail: 'https://assets.nintendo.com/image/upload/ar_1:1,c_fill,q_auto:best,f_auto:auto/ncom/software/switch/70010000000851/91522877954495574f940785f72524b515848751b572279b97771b1b94525859',
+      thumbnail: 'assets/image/image.png',
       category: 'Puzzle',
       players: 1,
       rating: 4.7,
@@ -42,7 +42,7 @@ export class GameServiceService {
     {
       id: '4',
       title: 'Angry Birds 2',
-      thumbnail: 'https://image.api.playstation.com/vulcan/ap/rnd/202301/1917/b4914115148977124588789ad8716787d5558117c77e557b.png',
+      thumbnail: 'assets/image/image.png',
       category: 'Action',
       players: 1,
       rating: 4.4,
@@ -52,7 +52,7 @@ export class GameServiceService {
     {
       id: '5',
       title: 'Call of Duty: Mobile',
-      thumbnail: 'https://image.api.playstation.com/vulcan/ap/rnd/202311/0711/c745b619f59897864491778b8744795811efc798959f7984.png',
+      thumbnail: 'assets/image/image.png',
       category: 'Shooter',
       players: 100,
       rating: 4.8,
@@ -62,7 +62,7 @@ export class GameServiceService {
      {
       id: '6',
       title: 'Genshin Impact',
-      thumbnail: 'https://m.media-amazon.com/images/I/81vYvE7L9IL._AC_UF1000,1000_QL80_.jpg',
+      thumbnail: 'assets/image/image.png',
       category: 'RPG',
       players: 1,
       rating: 4.6,
@@ -72,7 +72,7 @@ export class GameServiceService {
     {
       id: '7',
        title: 'Minecraft',
-       thumbnail: 'https://upload.wikimedia.org/wikipedia/en/5/5f/Minecraft_logo.png',
+       thumbnail: 'assets/image/image.png',
        category: 'Sandbox',
        players: 8,
        rating: 4.9,
@@ -82,7 +82,7 @@ export class GameServiceService {
     {
         id: '8',
         title: 'PUBG Mobile',
-        thumbnail: 'https://image.api.playstation.com/vulcan/ap/rnd/202310/1217/4429715714a58b8772a857f77f518414b7891845f9899f12.png',
+        thumbnail: 'assets/image/image.png',
         category: 'Action',
         players: 100,
         rating: 4.5,
@@ -92,7 +92,7 @@ export class GameServiceService {
     {
         id: '9',
         title: 'Ludo King',
-        thumbnail: 'https://m.media-amazon.com/images/I/71M5D6P7-jL._AC_UF894,1000_QL80_.jpg',
+        thumbnail: 'assets/image/image.png',
         category: 'Board',
         players: 4,
         rating: 4.2,
@@ -102,7 +102,7 @@ export class GameServiceService {
     {
         id: '10',
         title: 'Free Fire',
-        thumbnail: 'https://image.api.playstation.com/vulcan/ap/rnd/202307/1819/e1b5997f594c7c457b927854891b7582f8885a557875971a.png',
+        thumbnail: 'assets/image/image.png',
         category: 'Action',
         players: 50,
         rating: 4.4,

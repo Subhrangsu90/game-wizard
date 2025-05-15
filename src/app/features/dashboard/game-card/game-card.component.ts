@@ -12,13 +12,13 @@ export class GameCardComponent {
 
   @Input() game!: Game;
 
-  @HostBinding('style.grid-column-end')
-  get gridColumnSpan() {
-    return this.game.featured ? 'span 2' : 'span 1';
-  }
+  // @HostBinding('style.grid-column-end')
+  // get gridColumnSpan() {
+  //   return this.game.featured ? 'span 2' : 'span 1';
+  // }
 
-  @HostBinding('style.grid-row-end')
-  get gridRowSpan() {
-    return this.game.featured ? 'span 2' : 'span 1';
-  }
+  // @HostBinding('style.grid-row-end')
+  // get gridRowSpan() {
+  //   return this.game.featured ? 'span 2' : 'span 1';
+  // }
 }
