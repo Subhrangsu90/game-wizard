@@ -1,3 +1,12 @@
-<app-flash-screen *ngIf="showFlash"></app-flash-screen>
+@if(showFlash){
+<app-flash-screen></app-flash-screen>
 
-<h2 *ngIf="!showFlash">hello</h2>
+} @else {
+<h1 class="text-3xl font-bold underline">
+  Hello world!
+</h1>
+}
+
+
+
+
