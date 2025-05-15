@@ -1,0 +1,33 @@
+.flash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: conic-gradient(
+    from 180deg at 50% 50.6%,
+    #ee9b00 0deg,
+    #ae2012 359.74deg,
+    #ee9b00 360deg
+  );
+}
+
+.flash-screen__content{
+    gap: 1rem;
+    padding-bottom: 6rem;
+}
+
+.flash-screen__title {
+  font-family: Mansalva;
+  font-size: 120px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.flash-screen__description {
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 5rem;
+  padding-left: 5rem;
+  text-align: center;
+  color: #FFFFFF99;
+}
